@@ -1,12 +1,45 @@
+# --- Scripts ---
+*.sh
+# --- Build artifacts ---
+build/
+android-build/
+android/app/build/
+android/.gradle/
+android/local.properties
+
+# --- Gradle Wrapper Files ---
+android/gradle/
+android/gradlew
+android/gradlew.bat
+
+# --- CMake & IDE stuff ---
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
 Testing
-Makefile
 cmake_install.cmake
+Makefile
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+
+# --- OS/Editor Trash ---
+*.swp
+*.swo
+*.log
+.DS_Store
+Thumbs.db
+
+# --- CLion or VSCode IDE Folders (if used) ---
+.idea/
+.vscode/
+
+# --- Backup or temp files ---
+*~
+*.bak
+
+.vscode/
+imgui.ini
